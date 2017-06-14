@@ -1,2 +1,2 @@
 # Portfolio
-My Portfolio site contain recent project I have worked on.
+My Portfolio site contains recent projects I have worked on.
