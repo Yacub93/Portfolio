@@ -1,22 +1,37 @@
 html, body{
   	font-family: 'Roboto Slab', serif;
   	color: white;
-  	margin-left : auto;
-	margin-right: auto;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+
+}
+
+.nav-bar{
+	background-color: #c0392b;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+
 }
 
 .nav-pills {
   	font-size: 1.4em;
-  	background-size:cover;
 	margin-bottom: 10px;
 
 }
+
+.red  a.nav-link:hover {
+    background-color: #e74c3c;
+}
+
 a.nav-link{
-	color: #f44242;
+	color:#ecf0f1;
 }
-a.nav-link:hover{
-	background-color: #003B2B;
-}
+/*a.nav-link:hover{
+	background-color: #e74c3c;
+}*/
 
 
 h1{
@@ -53,21 +68,43 @@ h1{
 }
 /* Pages */
 .pageOne{
-	background: url("https://images.unsplash.com/photo-1473905008190-69b1a3dc6dd7?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=");
-	background-size:cover;
-	height:1200px;﻿
+	background: url("https://images.unsplash.com/photo-1473905008190-69b1a3dc6dd7?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=") no-repeat  fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:1000px;﻿
+    top:0;
+    right:0;
+    width:100%;
+    padding-right: -500%;
 }
 .pageTwo{
-	background: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=");
-	background-size:cover;
-	height:1200px;﻿
+	background: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=")no-repeat fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:1000px;﻿
 	padding-top: 5%;
+	padding-right: -500%;
+    top:0;
+    right:0;
+    width:100%;
+
 }
 .pageThree{
-	background: url("https://images.unsplash.com/photo-1489343511429-5482f78c15cf?dpr=2&auto=format&fit=crop&w=1500&h=1126&q=80&cs=tinysrgb&crop=&bg=");
-	background-size:cover;
+	background: url("https://images.unsplash.com/photo-1489343511429-5482f78c15cf?dpr=2&auto=format&fit=crop&w=1500&h=1126&q=80&cs=tinysrgb&crop=&bg=")no-repeat fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 	height:1500px;﻿
 	padding-top: 5%;
+    top:0;
+    right:0;
+    padding-right: -500%;
+    width:100%;
 }
 .info{
 	font-size: 1.5em;
@@ -148,6 +185,16 @@ h1{
   background-color: rgba(0,0,0, 0.8);
   text-align: center;
   padding: 25px;
+}
+
+.project1,.project2,.project3{
+	background-color: #e74c3c;
+	border-color: #e74c3c;
+}
+
+.project1:hover,.project2:hover,.project3:hover{
+	background-color: #c0392b;
+	border-color: #c0392b;
 }
 
 /* Footer */
