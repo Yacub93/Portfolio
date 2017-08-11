@@ -187,12 +187,12 @@ h1{
   padding: 25px;
 }
 
-.project1,.project2,.project3{
+.project1,.project2,.project3,.project4{
 	background-color: #e74c3c;
 	border-color: #e74c3c;
 }
 
-.project1:hover,.project2:hover,.project3:hover{
+.project1:hover,.project2:hover,.project3:hover,.project4:hover{
 	background-color: #c0392b;
 	border-color: #c0392b;
 }
